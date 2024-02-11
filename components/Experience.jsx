@@ -32,7 +32,7 @@ export default function Experience() {
             <h3 className="text-xl text-white">{workExperience[key][0]}</h3>
             <p className="pb-8 font-light text-[#949686] lg:text-xl">
               {workExperience[key][1].map((exp) => (
-                <ul className="list-disc">
+                <ul className="list-disc" key={index}>
                   <li className="pb-4">{exp}</li>
                 </ul>
               ))}
