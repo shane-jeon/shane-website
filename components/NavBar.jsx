@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import HamburgerMenu from "@components//HamburgerMenu";
+import HamburgerMenu from "@components/HamburgerMenu";
 
 export default function NavBar() {
   return (
