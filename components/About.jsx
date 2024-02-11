@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import selfie from "/profile_img.png";
+
 // import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css/core";
 
@@ -64,7 +64,7 @@ export default function About() {
       <div
         id="right"
         className="mb-10 flex justify-center lg:col-start-4 lg:col-end-6 lg:row-start-2 lg:row-end-4 lg:justify-normal">
-        <Image src={selfie} className="rounded-full" />
+        <Image src="/profile_img.png" className="rounded-full" />
       </div>
     </div>
   );

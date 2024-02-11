@@ -1,8 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import group from "/group_pic.jpg";
-import banner from "/banner2.jpg";
-import twilio from "/twilio.jpg";
 
 export default function Other() {
   const communityEngagements = [
@@ -11,14 +8,14 @@ export default function Other() {
       title: "Twilio Hackathon",
       date: "May 2023",
       role: "Participant",
-      image: twilio,
+      image: "/twilio.jpg",
     },
     {
       link: "https://www.reactathon.com/",
       title: "Reactathon",
       date: "May 2023",
       role: "Volunteer",
-      image: banner,
+      image: "/banner2.jpg",
     },
   ];
 
@@ -30,7 +27,7 @@ export default function Other() {
       projectTitle: "Team Jellyfish: NALAM Donor Portal",
       date: "November 2023",
       win: "2nd Place",
-      image: group,
+      image: "/group_pic.jpg",
     },
   ];
   return (

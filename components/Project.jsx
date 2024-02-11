@@ -3,17 +3,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import LazyYoutube from "@/components/Youtube";
-import dcuniverse from "/dc_universe.jpg";
-import specwebsite from "/specwebsite.jpg";
-import luskin from "/luskin.jpg";
-import glowupstatic from "/glowupstatic.jpg";
 
 export default function Project() {
   const projects = [
     {
       title: "LuskinOIC Website Redesign",
       time: "Fall 2023 - Spring 2024",
-      image: luskin,
+      image: "/luskin.jpg",
       summary:
         "Currently engaged in collaborative effort to develop new frontend for medical non-profit, building upon success of securing $15k contract for Sustainable Progress and Equality Collective. Responsibilities encompass general site layout, navigation, setup of known data models, and early component scaffolding, making use of technologies such as React, TypeScript, Next.js, Tailwind CSS, and Contentful",
       link: "",
@@ -23,7 +19,7 @@ export default function Project() {
       time: "Spring 2023",
       summary:
         "As part of a team effort, the project focused on building SPEC's new website frontend, utilizing technologies such as Next.js, TypeScript, React, and TailwindCSS in a collaborative environment. Contributions were crucial in developing a modern, responsive website that aligned with organizational objectives, facilitating skill enhancement through collaboration.",
-      image: specwebsite,
+      image: "/specwebsite.jpg",
       link: "https://specollective.org/",
     },
     {
@@ -31,7 +27,7 @@ export default function Project() {
       time: "Winter 2022 - Spring 2023",
       summary:
         "A web application developed for fans of the DC Animated Universe, offering an exploration of favorite characters, initially featuring the animated television series 'Young Justice'(2010) with plans to expand to 'Justice League'(2001) and 'Harley Quinn'(2019). The homepage presents character cards that lead to detailed profiles and comic book lists organized by publication era. Acknowledging the complexity of the DC Universe, the application was designed to simplify research for new fans. Inspired by the transition from animated series to comics, the app serves as a streamlined gateway into the DC Universe, facilitating an easier navigation for newcomers without the need to consult multiple sources.",
-      image: dcuniverse,
+      image: "/dc_universe.jpg",
       link: "https://github.com/shane-jeon/Into_the_DCUniverse",
     },
   ];
@@ -101,7 +97,7 @@ export default function Project() {
                 <LazyYoutube />
               </div>
               <div className="lg:hidden lg:w-3/5">
-                <Image src={glowupstatic} className="object-fit" />
+                <Image src="/glowupstatic.jpg" className="object-fit" />
               </div>
             </div>
           </div>
