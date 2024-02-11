@@ -1,17 +1,17 @@
 "use client";
 
 import Image from "next/image";
-import selfie from "@/public/profile_img.png";
+import selfie from "/profile_img.png";
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css/core";
-import javascript from "@/public/JS.png";
-import flask from "@/public/flask.svg";
-import next from "@/public/nextJS.svg";
-import typescript from "@/public/TS.png";
-import react from "@/public/React.svg";
-import postgres from "@/public/postgresql.svg";
-import tailwind from "@/public/tailwind.svg";
-import python from "@/public/python.svg";
+import javascript from "/JS.png";
+import flask from "/flask.svg";
+import next from "/nextJS.svg";
+import typescript from "/TS.png";
+import react from "/React.svg";
+import postgres from "/postgresql.svg";
+import tailwind from "/tailwind.svg";
+import python from "/python.svg";
 
 export default function About() {
   const splideImages = [

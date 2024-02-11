@@ -3,10 +3,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import LazyYoutube from "./Youtube";
-import dcuniverse from "@/public/dc_universe.jpg";
-import specwebsite from "@/public/specwebsite.jpg";
-import luskin from "@/public/luskin.jpg";
-import glowupstatic from "@/public/glowupstatic.jpg";
+import dcuniverse from "/dc_universe.jpg";
+import specwebsite from "/specwebsite.jpg";
+import luskin from "/luskin.jpg";
+import glowupstatic from "/glowupstatic.jpg";
 
 export default function Project() {
   const projects = [
