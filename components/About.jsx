@@ -16,6 +16,7 @@ export default function About() {
     "flask.svg",
     "/postgresql.svg",
   ];
+
   const splideOptions = {
     perPage: 3,
     type: "loop",
@@ -52,9 +53,11 @@ export default function About() {
             Tech Stack
           </h3>
           <div className="mb-10 flex flex-wrap justify-center rounded-l-md bg-gradient-radial from-blue-950 from-10% to-black to-80% bg-repeat-y pl-4 lg:justify-start lg:from-20% lg:to-70%">
-            {splideImages.map((splideImage) => (
+            {splideImages.map((splideImage, index) => (
               <Image
+                key={index}
                 src={splideImage}
+                alt={Array.from(splideImage).slice(1, -4).join("")}
                 className="w-12 object-contain pb-6 pr-4 lg:w-16 lg:pt-4"
               />
             ))}
@@ -63,6 +66,7 @@ export default function About() {
       </div>
       <div
         id="right"
+        alt="profile-picture"
         className="mb-10 flex justify-center lg:col-start-4 lg:col-end-6 lg:row-start-2 lg:row-end-4 lg:justify-normal">
         <Image src="/profile_img.png" className="rounded-full" />
       </div>

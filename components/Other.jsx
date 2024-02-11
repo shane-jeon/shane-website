@@ -55,6 +55,7 @@ export default function Other() {
               </div>
               <div>
                 <Image
+                  alt={engagement.title}
                   src={engagement.image}
                   className="mb-4 lg:mt-2 lg:w-96"
                 />
@@ -69,7 +70,7 @@ export default function Other() {
           {awards.map((award, index) => (
             <div key={index}>
               <div className="mb-4 lg:w-96">
-                <Image src={award.image} />
+                <Image alt={award.title} src={award.image} />
               </div>
               <div className="leading-looser">
                 <h4 className="text-xl text-white">

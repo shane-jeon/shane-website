@@ -65,7 +65,7 @@ export default function Project() {
                 </p>
               </div>
               <div className="lg:w-2/5">
-                <Image src={project.image} className="object-fit" />
+                <Image src={project.image} alt={project.title} className="object-fit" />
               </div>
             </div>
           ))}
@@ -97,7 +97,7 @@ export default function Project() {
                 <LazyYoutube />
               </div>
               <div className="lg:hidden lg:w-3/5">
-                <Image src="/glowupstatic.jpg" className="object-fit" />
+                <Image alt="glowup" src="/glowupstatic.jpg" className="object-fit" />
               </div>
             </div>
           </div>
