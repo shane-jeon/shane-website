@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import selfie from "/profile_img.png";
-import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
+// import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css/core";
 import javascript from "/js.png";
 import flask from "/flask.svg";

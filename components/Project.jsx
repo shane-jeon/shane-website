@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import LazyYoutube from "./Youtube";
+import LazyYoutube from "/Youtube";
 import dcuniverse from "/dc_universe.jpg";
 import specwebsite from "/specwebsite.jpg";
 import luskin from "/luskin.jpg";
