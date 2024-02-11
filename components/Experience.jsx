@@ -21,11 +21,11 @@ export default function Experience() {
   return (
     <div
       id="experience"
-      className="grid grid-cols-5 place-items-start gap-x-20 font-spaceGrotesk">
-      <h1 className="col-start-2 row-start-1 text-4xl text-[#F8F8FF] lg:text-6xl">
+      className="font-spaceGrotesk lg:grid lg:grid-cols-5 lg:place-items-start lg:gap-x-20">
+      <h1 className="text-4xl text-[#F8F8FF] lg:col-start-2 lg:row-start-1 lg:text-6xl">
         Experience
       </h1>
-      <div className="col-start-2 col-end-5 row-start-1 mt-20">
+      <div className="mt-20 lg:col-start-2 lg:col-end-5 lg:row-start-1">
         {Object.keys(workExperience).map((key, index) => (
           <div key={index} className="">
             <h2 className="text-2xl text-white">{key}</h2>

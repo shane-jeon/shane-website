@@ -39,16 +39,16 @@ export default function About() {
   return (
     <div
       id="about"
-      className="grid h-screen grid-cols-5 grid-rows-5 items-center justify-around gap-x-20 font-spaceGrotesk">
+      className="flex flex-col-reverse font-spaceGrotesk lg:grid lg:h-screen lg:grid-cols-5 lg:grid-rows-5 lg:items-center lg:justify-around lg:gap-x-20">
       <div
         id="left"
-        className="col-start-2 col-end-4 row-start-3 row-end-5 text-[#F8F8FF]">
-        <div id="header">
+        className="flex flex-col text-[#F8F8FF] lg:col-start-2 lg:col-end-4 lg:row-start-3 lg:row-end-5 lg:justify-normal">
+        <div id="header" className="">
           <h1 className="text-4xl lg:text-6xl">Shane Jeon</h1>
-          <h2 className="pb-4 text-3xl lg:text-4xl">Software Engineer</h2>
+          <h2 className="text-3xl lg:pb-4 lg:text-4xl">Software Engineer</h2>
         </div>
         <div id="body">
-          <p className="pb-8 text-xl font-light text-[#949686]">
+          <p className="text-xl font-light text-[#949686] lg:pb-8">
             An inquisitive software engineer with a passion for tinkering with
             new technologies and building applications. My professional
             experiences in tech include work in Quality Assurance and Frontend
@@ -67,7 +67,9 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div id="right" className="col-start-4 col-end-6 row-start-3 row-end-4">
+      <div
+        id="right"
+        className="flex justify-center lg:col-start-4 lg:col-end-6 lg:row-start-3 lg:row-end-4 lg:justify-normal">
         <Image src={selfie} className="rounded-full" />
       </div>
     </div>

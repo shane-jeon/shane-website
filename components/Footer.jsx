@@ -9,9 +9,9 @@ export default function Footer() {
   return (
     <div
       id="contact"
-      className="mx-96 mt-20 flex h-56 flex-col rounded-t-3xl bg-[#02FA9B] text-black">
-      <div className="pl-20 pt-16">
-        <p className="pb-10 text-3xl underline hover:no-underline">
+      className="mt-20 flex h-56 flex-col rounded-t-3xl bg-[#02FA9B] text-black lg:mx-96">
+      <div className="pl-10 pt-16 lg:pl-20">
+        <p className="pb-10 text-xl underline hover:no-underline lg:text-3xl">
           <Link href="mailto:shanexjeonx@gmail.com">shanexjeonx@gmail.com</Link>
         </p>
         <div className="flex gap-3">

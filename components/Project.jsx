@@ -9,13 +9,17 @@ import luskin from "../public/luskin.jpg";
 
 export default function Project() {
   return (
-    <div id="projects" className="grid grid-cols-5 grid-rows-1 gap-y-10">
-      <h1 className="col-start-2 text-4xl text-white lg:text-6xl">Projects</h1>
-      <div className="col-start-2 col-end-6 flex">
-        <div className="flex flex-col gap-20">
-          <div id="project4" className="flex gap-36">
-            <div className="w-96">
-              <div className="flex justify-between">
+    <div
+      id="projects"
+      className="lg:grid lg:grid-cols-5 lg:grid-rows-1 lg:gap-y-10">
+      <h1 className="text-4xl text-white lg:col-start-2 lg:text-6xl">
+        Projects
+      </h1>
+      <div className="flex lg:col-start-2 lg:col-end-6">
+        <div className="lg:flex lg:flex-col lg:gap-20">
+          <div id="project4" className="gap-36 lg:flex">
+            <div className="lg:w-96">
+              <div className="justify-between lg:flex">
                 <h3 className="text-xl">LuskinOIC Website Redesign</h3>
                 <p className="text-md">Fall 2023 - Spring 2024</p>
               </div>
@@ -29,12 +33,12 @@ export default function Project() {
                 TypeScript, Next.js, Tailwind CSS, and Contentful
               </p>
             </div>
-            <div className="w-2/5">
+            <div className="lg:w-2/5">
               <Image src={luskin} className="object-fit" />
             </div>
           </div>
-          <div id="project3" className="flex gap-36">
-            <div className="w-96">
+          <div id="project3" className="flex flex-col lg:flex-row lg:gap-36">
+            <div className="lg:w-96">
               <div className="flex justify-between">
                 <h3 className="text-xl">SPEC Website Rebuild</h3>
                 <p className="text-md">Spring 2023</p>
@@ -48,12 +52,12 @@ export default function Project() {
                 collaboration
               </p>
             </div>
-            <div className="w-2/5">
+            <div className="lg:w-2/5">
               <Image src={specwebsite} className="object-fit" />
             </div>
           </div>
-          <div className="flex gap-36">
-            <div className="w-96">
+          <div id="project2" className="flex flex-col lg:flex-row lg:gap-36">
+            <div className="lg:w-96">
               <div className="flex justify-between">
                 <h3 className="text-xl">Into the DC Universe</h3>
                 <p className="text-md">Winter 2022 - Spring 2023</p>
@@ -71,7 +75,7 @@ export default function Project() {
                 hassle of consulting multiple sources.
               </p>
             </div>
-            <div className="w-2/5">
+            <div className="w-3/5 lg:w-2/5">
               <Image src={dcuniverse} className="object-fit" />
             </div>
           </div>
@@ -79,8 +83,8 @@ export default function Project() {
             id=""
             // className="col-start-2 col-end-6 row-start-3 gap-36">
             className="flex flex-col">
-            <div className="flex gap-36">
-              <div className="w-96">
+            <div id="project1" className="flex flex-col lg:flex-row lg:gap-36">
+              <div className="lg:w-96">
                 <div className="flex justify-between">
                   <h3 className="text-xl">Glow Up</h3>
                   <p className="text-md">Fall 2023</p>
@@ -94,7 +98,9 @@ export default function Project() {
                   eliminating need for costly fees from pre-existing services
                 </p>
               </div>
-              <LazyYoutube />
+              <div className="w-4/5 lg:w-2/5">
+                <LazyYoutube />
+              </div>
             </div>
           </div>
         </div>

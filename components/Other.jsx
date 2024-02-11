@@ -6,10 +6,10 @@ import twilio from "../public/twilio.jpg";
 
 export default function Other() {
   return (
-    <div id="other" className="grid grid-cols-5">
-      <h1 className="col-start-2 text-6xl text-white">Other</h1>
-      <div className="col-start-2 col-end-5 mt-10 flex justify-between gap-10">
-        <div className="col-start-4">
+    <div id="other" className="lg:grid lg:grid-cols-5">
+      <h1 className="text-6xl text-white lg:col-start-2">Other</h1>
+      <div className="mt-10 flex flex-col justify-between gap-10 lg:col-start-2 lg:col-end-5 lg:flex-row">
+        <div className="lg:col-start-4">
           <h2 className="mb-12 text-3xl text-white">Community Engagement</h2>
           <div id="twilio">
             <h4 className="text-xl text-white">
@@ -36,14 +36,14 @@ export default function Other() {
             <p className="text-md text-white">May 2023</p>
             <p className="text-[#949494]">Volunteer</p>
             <div>
-              <Image src={banner} className="w-96" />
+              <Image src={banner} className="lg:w-96" />
             </div>
           </div>
         </div>
         <div className="">
           <h2 className="mb-12 text-3xl text-white">Awards</h2>
           <div id="hackathon" className="">
-            <div className="w-96">
+            <div className="lg:w-96">
               <Image src={group} />
             </div>
             <h4 className="text-xl text-white">
