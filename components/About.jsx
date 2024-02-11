@@ -4,14 +4,14 @@ import Image from "next/image";
 import selfie from "/profile_img.png";
 // import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css/core";
-import javascript from "/js.png";
-import flask from "/flask.svg";
-import next from "/nextjs.svg";
-import typescript from "/ts.png";
-import react from "/react.svg";
-import postgres from "/postgresql.svg";
-import tailwind from "/tailwind.svg";
-import python from "/python.svg";
+import javascript from "@/public/js.png";
+import flask from "@/public/flask.svg";
+import next from "@/public/nextjs.svg";
+import typescript from "@/public/ts.png";
+import react from "@/public/react.svg";
+import postgres from "@/public/postgresql.svg";
+import tailwind from "@/public/tailwind.svg";
+import python from "@/public/python.svg";
 
 export default function About() {
   const splideImages = [
