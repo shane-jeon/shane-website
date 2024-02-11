@@ -1,10 +1,10 @@
 import Image from "next/image";
-import NavBar from "/NavBar";
-import About from "/About";
-import Experience from "/Experience";
-import Project from "/Project";
-import Other from "/Other";
-import Footer from "/Footer";
+import NavBar from "@/components/NavBar";
+import About from "@/components/About";
+import Experience from "@/components/Experience";
+import Project from "@/components/Project";
+import Other from "@/components/Other";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
