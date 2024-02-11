@@ -1,6 +1,6 @@
 import Image from "next/image";
 import NavBar from "/NavBar";
-import About from "/About";
+import About from "/about";
 import Experience from "/Experience";
 import Project from "/Project";
 import Other from "/Other";
