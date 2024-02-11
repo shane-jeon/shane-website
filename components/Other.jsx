@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import group from "../public/group_pic.jpg";
-import banner from "../public/banner2.jpg";
-import twilio from "../public/twilio.jpg";
+import group from "@/public/group_pic.jpg";
+import banner from "@/public/banner2.jpg";
+import twilio from "@/public/twilio.jpg";
 
 export default function Other() {
   const communityEngagements = [
