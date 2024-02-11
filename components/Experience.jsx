@@ -1,7 +1,7 @@
 export default function Experience() {
   const workExperience = {
     "Sustainable Progress & Equality Collective [SPEC]": [
-      "Associate Software Engineer (Contract)",
+      "Associate Software Engineer",
       [
         "Enhanced user experience and represented client’s mission effectively by constructing custom web solutions for website reconstruction using NextJS, ReactJS, TypeScript, and headless CMS Contentful, resulting in increased online traffic and improved communication with patient and donor community",
         "Proficiently built responsive and interactive web pages in collaborative effort with product design through use of Figma, ReactJS, and TailwindCSS, ensuring highly responsive and interactive web pages",
@@ -21,19 +21,23 @@ export default function Experience() {
   return (
     <div
       id="experience"
-      className="font-spaceGrotesk lg:grid lg:grid-cols-5 lg:place-items-start lg:gap-x-20">
-      <h1 className="text-4xl text-[#F8F8FF] lg:col-start-2 lg:row-start-1 lg:text-6xl">
+      className="font-spaceGrotesk lg:mb-14 lg:grid lg:grid-cols-5 lg:place-items-start lg:gap-x-20">
+      <h1 className="mb-6 text-4xl tracking-wider text-[#F8F8FF] lg:col-start-2 lg:row-start-1 lg:text-6xl">
         Experience
       </h1>
-      <div className="mt-20 lg:col-start-2 lg:col-end-5 lg:row-start-1">
+      <div className="lg:col-start-2 lg:col-end-5 lg:row-start-1 lg:mt-24">
         {Object.keys(workExperience).map((key, index) => (
           <div key={index} className="">
-            <h2 className="text-2xl text-white">{key}</h2>
-            <h3 className="text-xl text-white">{workExperience[key][0]}</h3>
-            <p className="pb-8 font-light text-[#949686] lg:text-xl">
+            <h2 className="mb-2 text-2xl font-normal leading-7 tracking-wide text-white">
+              {key}
+            </h2>
+            <h3 className="mb-4 text-xl font-thin text-white">
+              {workExperience[key][0]}
+            </h3>
+            <p className="mb-6 pl-2 font-light text-[#949686] lg:mb-8 lg:text-xl">
               {workExperience[key][1].map((exp) => (
                 <ul className="list-disc" key={index}>
-                  <li className="pb-4">{exp}</li>
+                  <li className="pb-4 text-lg leading-relaxed">{exp}</li>
                 </ul>
               ))}
             </p>

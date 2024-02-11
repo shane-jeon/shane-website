@@ -6,7 +6,7 @@ import HamburgerMenu from "@/components/HamburgerMenu";
 
 export default function NavBar() {
   return (
-    <div className="lg:px-16">
+    <div className="lg:px-16 lg:pt-10">
       <HamburgerMenu />
       <div className="hidden py-4 font-spaceGrotesk text-lg font-medium lg:block lg:flex lg:justify-between">
         <div className="rounded-bl-xl rounded-tr-xl bg-[#02FA9B] px-4 text-black">

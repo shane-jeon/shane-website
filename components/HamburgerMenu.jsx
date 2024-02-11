@@ -10,8 +10,15 @@ export default function HamburgerMenu({ open, setOpen }) {
     setIsOpen(!isOpen);
   };
 
+  const links = {
+    about: "About",
+    experience: "Experience",
+    projects: "Projects",
+    other: "Other",
+  };
+
   return (
-    <div className="mb-28 lg:hidden">
+    <div className="mb-10 lg:hidden">
       <button
         onClick={toggleMenu}
         className="flex w-screen flex-col items-center justify-center bg-transparent py-10">
@@ -36,21 +43,14 @@ export default function HamburgerMenu({ open, setOpen }) {
       {isOpen && (
         <div className="flex-col bg-transparent text-center font-spaceGrotesk text-2xl font-light text-[#F8F8FF] lg:hidden">
           <ul>
-            <li className="">
+            <li className="pb-2">
               <h1 className="font-medium text-[#02FA9B]">Shane J.</h1>
             </li>
-            <li>
-              <Link href="#about">About</Link>
-            </li>
-            <li>
-              <Link href="#experience">Experience</Link>
-            </li>
-            <li>
-              <Link href="#projects">Projects</Link>
-            </li>
-            <li>
-              <Link href="#other">Other</Link>
-            </li>
+            {Object.keys(links).map((key, index) => (
+              <li key={index} className="pb-2">
+                <Link href={`#${key}`}>{links[key]}</Link>
+              </li>
+            ))}
             <li className="text-[#02FA9B]">
               <Link href="#contact">Contact</Link>
             </li>

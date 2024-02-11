@@ -9,19 +9,29 @@ export default function Footer() {
   return (
     <div
       id="contact"
-      className="mt-20 flex h-56 flex-col rounded-t-3xl bg-[#02FA9B] text-black lg:mx-96">
-      <div className="pl-10 pt-16 lg:pl-20">
-        <p className="pb-10 text-xl underline hover:no-underline lg:text-3xl">
+      className="mt-20 flex h-56 flex-col rounded-t-3xl bg-[#02FA9B] text-black lg:mx-96 lg:h-64">
+      <div className="pl-6 pt-10 leading-loose lg:pl-20 lg:pt-20">
+        <p className="pb-6 text-2xl underline underline-offset-4 hover:no-underline lg:pb-10 lg:text-3xl">
           <Link href="mailto:shanexjeonx@gmail.com">shanexjeonx@gmail.com</Link>
         </p>
-        <div className="flex gap-3">
+        <div className="justify-right flex gap-4 text-lg lg:gap-3">
           {Object.keys(links).map((key, index) => (
-            <div key={index} className="hover:underline">
+            <div
+              key={index}
+              className="lg:no-italic italic underline-offset-4 hover:underline">
               <Link href={links[key]}>{key}</Link>
             </div>
           ))}
         </div>
       </div>
+      <p className="pr-8 pt-8 text-right text-lg italic lg:pr-14 lg:pt-4">
+        &#42; Designed by{" "}
+        <Link
+          href="https://boyaye-portfolio.webflow.io/"
+          className="font-semibold underline underline-offset-4 hover:no-underline">
+          Boya Le
+        </Link>
+      </p>
     </div>
   );
 }
