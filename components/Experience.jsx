@@ -2,6 +2,7 @@ export default function Experience() {
   const workExperience = {
     "Sustainable Progress & Equality Collective [SPEC]": [
       "Associate Software Engineer",
+      "April 2023, October 2023 - February 2024",
       [
         "Enhanced user experience and represented client’s mission effectively by constructing custom web solutions for website reconstruction using NextJS, ReactJS, TypeScript, and headless CMS Contentful, resulting in increased online traffic and improved communication with patient and donor community",
         "Proficiently built responsive and interactive web pages in collaborative effort with product design through use of Figma, ReactJS, and TailwindCSS, ensuring highly responsive and interactive web pages",
@@ -11,6 +12,7 @@ export default function Experience() {
     ],
     "Rocket Lawyer": [
       "Quality Assurance Intern",
+      "June 2022 - August 2022",
       [
         "Employed Java, Selenium, and Applitools to develop Proof of Concept, reducing manual testing time for 700+ static content pages from 3-4 weeks to under 4 hours",
         "Proactively refactored deprecated tests in codebase, pinpointing backend code issues and providing clear repair plans to streamline testing procedures and contribute to efficient debugging process by utilizing strong analytical abilities and commitment to problem resolution",
@@ -31,11 +33,14 @@ export default function Experience() {
             <h2 className="mb-2 text-2xl font-normal leading-7 tracking-wide text-white">
               {key}
             </h2>
-            <h3 className="mb-4 text-xl font-thin text-white">
+            <h3 className="mb-2 text-xl font-thin text-white">
               {workExperience[key][0]}
             </h3>
+            <p className="mb-4 text-lg font-thin text-white">
+              {workExperience[key][1]}
+            </p>
             <p className="mb-6 pl-2 font-light text-[#949686] lg:mb-8 lg:text-xl">
-              {workExperience[key][1].map((exp) => (
+              {workExperience[key][2].map((exp) => (
                 <ul className="list-disc" key={index}>
                   <li className="pb-4 text-lg leading-relaxed">{exp}</li>
                 </ul>
