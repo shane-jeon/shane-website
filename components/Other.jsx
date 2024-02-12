@@ -15,7 +15,7 @@ export default function Other() {
       title: "Reactathon",
       date: "May 2023",
       role: "Volunteer",
-      image: "/reactathon.jpg",
+      image: "/reactathon.png",
     },
   ];
 
@@ -27,7 +27,7 @@ export default function Other() {
       projectTitle: "Team Jellyfish: NALAM Donor Portal",
       date: "November 2023",
       win: "2nd Place",
-      image: "/group_pic.jpg",
+      image: "/group_pic.png",
     },
   ];
   return (

@@ -7,8 +7,8 @@ import "@splidejs/react-splide/css/core";
 
 export default function About() {
   const splideImages = [
-    "/javascript.jpg",
-    "/typescript.jpg",
+    "/javascript.svg",
+    "/typescript.svg",
     "/next.svg",
     "/react.svg",
     "/tailwind.svg",
