@@ -49,9 +49,9 @@ export default function About() {
             leverage my familiarities from my prior career in customer service
             with my ever-growing technical skillsets as a developer.
           </p>
-          <h3 className="pb-2 text-2xl font-normal text-[#949494]">
+          {/* <h3 className="pb-2 text-2xl font-normal text-[#949494]">
             Tech Stack
-          </h3>
+          </h3> */}
           {/* <div className="mb-10 flex flex-wrap justify-center rounded-l-md bg-gradient-radial from-blue-950 from-10% to-black to-80% bg-repeat-y pl-4 lg:justify-start lg:from-20% lg:to-70%">
             {splideImages.map((splideImage, index) => (
               <Image
