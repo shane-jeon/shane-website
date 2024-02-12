@@ -10,7 +10,7 @@ export default function About() {
     "/javascript.svg",
     "/typescript.svg",
     "/next.svg",
-    "/react.svg",
+    "/react1.svg",
     "/tailwind.svg",
     "/python.svg",
     "/flask.svg",
