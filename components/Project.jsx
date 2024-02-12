@@ -50,6 +50,7 @@ export default function Project() {
                     {project.link ? (
                       <Link
                         href={project.link}
+                        target="_blank"
                         className="text-[#02FA9B] underline-offset-4 hover:text-white hover:underline">
                         {" "}
                         {project.title}
@@ -65,7 +66,11 @@ export default function Project() {
                 </p>
               </div>
               <div className="lg:w-2/5">
-                <Image src={project.image} alt={project.title} className="object-fit" />
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  className="object-fit"
+                />
               </div>
             </div>
           ))}
@@ -78,6 +83,7 @@ export default function Project() {
                   <h3 className="mb-1 text-xl">
                     <Link
                       href="https://github.com/shane-jeon/loyalty-program"
+                      target="_blank"
                       className="text-[#02FA9B] underline-offset-4 hover:text-white hover:underline">
                       Glow Up
                     </Link>
@@ -97,7 +103,11 @@ export default function Project() {
                 <LazyYoutube />
               </div>
               <div className="lg:hidden lg:w-3/5">
-                <Image alt="glowup" src="/glowupstatic.jpg" className="object-fit" />
+                <Image
+                  alt="glowup"
+                  src="/glowupstatic.jpg"
+                  className="object-fit"
+                />
               </div>
             </div>
           </div>

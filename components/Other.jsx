@@ -46,6 +46,7 @@ export default function Other() {
                 <h4 className="tracking-looser text-xl text-white hover:text-[#02FA9B]">
                   <Link
                     href={engagement.link}
+                    target="_blank"
                     className="underline underline-offset-4 hover:text-[#02FA9B] hover:no-underline">
                     {engagement.title}
                   </Link>
@@ -76,6 +77,7 @@ export default function Other() {
                 <h4 className="text-xl text-white">
                   <Link
                     href={award.link}
+                    target="_blank"
                     className="underline underline-offset-4 hover:text-[#02FA9B] hover:no-underline">
                     {award.title}
                   </Link>
@@ -85,6 +87,7 @@ export default function Other() {
                 <p className="text-md text-[#949494]">
                   <Link
                     href={award.project}
+                    target="_blank"
                     className="underline underline-offset-4 hover:text-[#02FA9B] hover:no-underline">
                     {award.projectTitle}
                   </Link>
