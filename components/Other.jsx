@@ -15,7 +15,7 @@ export default function Other() {
       title: "Reactathon",
       date: "May 2023",
       role: "Volunteer",
-      image: "/banner2.jpg",
+      image: "/reactathon.jpg",
     },
   ];
 
