@@ -19,7 +19,9 @@ export default function Footer() {
             <div
               key={index}
               className="lg:no-italic italic underline-offset-4 hover:underline">
-              <Link target="_blank" href={links[key]}>{key}</Link>
+              <Link target="_blank" href={links[key]}>
+                {key}
+              </Link>
             </div>
           ))}
         </div>
@@ -30,7 +32,7 @@ export default function Footer() {
           href="https://boyaye-portfolio.webflow.io/"
           target="_blank"
           className="font-semibold underline underline-offset-4 hover:no-underline">
-          Boya Le
+          Boya Ye
         </Link>
       </p>
     </div>
