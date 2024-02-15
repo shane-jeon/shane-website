@@ -62,7 +62,9 @@ export default function Project() {
                   <p className="text-md mb-2 text-white">{project.time}</p>
                 </div>
                 {project.title.slice(-1) === "*" ? (
-                  <p className="italic">&#42;In development</p>
+                  <p className="text-sm italic text-white">
+                    &#42;In development
+                  </p>
                 ) : null}
                 <p className="text-lg tracking-normal text-[#949494]">
                   {project.summary}
