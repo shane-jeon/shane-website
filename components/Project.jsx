@@ -56,7 +56,7 @@ export default function Project() {
                         {project.title}
                       </Link>
                     ) : (
-                      <span className="text-white">{project.title}</span>
+                      <span className="text-[#02FA9B]">{project.title}</span>
                     )}
                   </h3>
                   <p className="text-md mb-2 text-white">{project.time}</p>
