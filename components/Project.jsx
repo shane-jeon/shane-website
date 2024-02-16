@@ -11,7 +11,7 @@ export default function Project() {
       time: "Fall 2023 - Spring 2024",
       image: "/luskin.jpg",
       summary:
-        "Currently engaged in collaborative effort to develop new frontend for medical non-profit, building upon success of securing $15k contract for Sustainable Progress and Equality Collective. Responsibilities encompass general site layout, navigation, setup of known data models, and early component scaffolding, making use of technologies such as React, TypeScript, Next.js, Tailwind CSS, and Contentful *in development",
+        "Currently engaged in collaborative effort to develop new frontend for medical non-profit, building upon success of securing $18k contract for Sustainable Progress and Equality Collective. Responsibilities encompass general site layout, navigation, setup of known data models, and early component scaffolding, making use of technologies such as React, TypeScript, Next.js, Tailwind CSS, and Contentful ",
       link: "",
     },
     {

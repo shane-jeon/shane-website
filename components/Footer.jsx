@@ -11,14 +11,14 @@ export default function Footer() {
       id="contact"
       className="mt-20 flex h-56 flex-col rounded-t-3xl bg-[#02FA9B] text-black lg:mx-96 lg:h-64">
       <div className="pl-6 pt-10 leading-loose lg:pl-20 lg:pt-20">
-        <p className="pb-6 text-2xl underline underline-offset-4 hover:no-underline lg:pb-10 lg:text-3xl">
+        <p className="pb-6 text-2xl underline underline-offset-8 hover:no-underline lg:pb-10 lg:text-3xl">
           <Link href="mailto:shanexjeonx@gmail.com">shanexjeonx@gmail.com</Link>
         </p>
         <div className="justify-right flex gap-4 text-lg lg:gap-3">
           {Object.keys(links).map((key, index) => (
             <div
               key={index}
-              className="lg:no-italic italic underline-offset-4 hover:underline">
+              className="hover:no-italic italic underline-offset-4 hover:underline">
               <Link target="_blank" href={links[key]}>
                 {key}
               </Link>
