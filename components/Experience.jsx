@@ -2,7 +2,7 @@ export default function Experience() {
   const workExperience = {
     "Sustainable Progress & Equality Collective [SPEC]": [
       "Associate Software Engineer",
-      "April 2023, October 2023 - February 2024",
+      "April 2023, October 2023 - January 2024",
       [
         "Enhanced user experience and represented client’s mission effectively by constructing custom web solutions for website reconstruction using NextJS, ReactJS, TypeScript, and headless CMS Contentful, resulting in increased online traffic and improved communication with patient and donor community",
         "Proficiently built responsive and interactive web pages in collaborative effort with product design through use of Figma, ReactJS, and TailwindCSS, ensuring highly responsive and interactive web pages",
