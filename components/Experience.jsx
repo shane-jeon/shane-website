@@ -23,7 +23,7 @@ export default function Experience() {
   return (
     <div
       id="experience"
-      className="font-spaceGrotesk lg:mb-14 lg:grid lg:grid-cols-5 lg:place-items-start lg:gap-x-20">
+      className="from-blue-950 from-0% to-black to-60% font-spaceGrotesk bg-radient-ellipse-c lg:mb-14 lg:grid lg:grid-cols-5 lg:place-items-start lg:gap-x-20">
       <h1 className="mb-6 text-4xl tracking-wider text-[#F8F8FF] lg:col-start-2 lg:row-start-1 lg:text-6xl">
         Experience
       </h1>

@@ -34,7 +34,7 @@ export default function Project() {
   return (
     <div
       id="projects"
-      className="my-10 lg:grid lg:grid-cols-5 lg:grid-rows-1 lg:gap-y-10">
+      className="my-10 from-blue-950 from-0% to-black to-60% bg-radient-ellipse-c lg:grid lg:grid-cols-5 lg:grid-rows-1 lg:gap-y-10">
       <h1 className="mb-6 text-4xl tracking-wider text-white lg:col-start-2 lg:mb-2 lg:text-6xl">
         Projects
       </h1>

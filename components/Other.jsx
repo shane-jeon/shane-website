@@ -31,7 +31,9 @@ export default function Other() {
     },
   ];
   return (
-    <div id="other" className="lg:grid lg:grid-cols-5">
+    <div
+      id="other"
+      className="from-blue-950 from-0% to-black to-60% bg-radient-ellipse-c lg:grid lg:grid-cols-5">
       <h1 className="mb-6 text-4xl tracking-wider text-white lg:col-start-2 lg:mb-0 lg:text-6xl">
         Other
       </h1>

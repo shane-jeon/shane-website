@@ -32,7 +32,7 @@ export default function About() {
   return (
     <div
       id="about"
-      className="flex flex-col-reverse font-spaceGrotesk lg:mt-10 lg:grid lg:h-screen lg:grid-cols-5 lg:grid-rows-5 lg:items-center lg:justify-around lg:gap-x-20">
+      className="flex flex-col-reverse from-blue-950 from-0% to-black to-60% font-spaceGrotesk bg-radient-ellipse-c lg:mt-10 lg:grid lg:h-screen lg:grid-cols-5 lg:grid-rows-5 lg:items-center lg:justify-around lg:gap-x-20">
       <div
         id="left"
         className="flex flex-col text-[#F8F8FF] lg:col-start-2 lg:col-end-4 lg:row-start-2 lg:row-end-5 lg:justify-normal">
