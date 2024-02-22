@@ -42,12 +42,13 @@ export default function About() {
         </div>
         <div id="body">
           <p className="pb-6 text-xl font-light leading-normal text-[#949686] lg:pb-8">
-            An inquisitive software engineer with a passion for tinkering with
-            new technologies and building applications. My professional
-            experiences in tech include work in Quality Assurance and Frontend
-            Development. I am seeking a support engineer role, as I can best
-            leverage my familiarities from my prior career in customer service
-            with my ever-growing technical skillsets as a developer.
+            Transitioning into software engineering with a non-traditional
+            background, I bring a unique blend of determination, creativity, and
+            hands-on experience with modern web technologies. My journey is
+            marked by self-directed learning and practical problem-solving,
+            equipping me with a robust skill set ready to tackle real-world
+            challenges. Eager to apply my knowledge and drive, I am poised to
+            make a significant impact in the technology sector.
           </p>
           <h3 className="pb-2 text-2xl font-normal text-[#949494]">
             Tech Stack
