@@ -9,9 +9,9 @@ export default function About() {
   const splideImages = [
     "/javascript.svg",
     "/typescript.svg",
-    "/next.svg",
     "/react1.svg",
     "/tailwind.svg",
+    "/next.svg",
     "/python.svg",
     "/flask.svg",
     "/postgresql.svg",
