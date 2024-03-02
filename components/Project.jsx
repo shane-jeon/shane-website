@@ -103,43 +103,6 @@ export default function Project() {
               </div>
             </div>
           ))}
-          {/* <div id="" className="flex flex-col"> */}
-          {/* <div
-              id="project1"
-              className="flex flex-col-reverse gap-5 mb-10 lg:flex-row lg:gap-36">
-              <div className="lg:w-96">
-                <div className="justify-between text-white lg:flex">
-                  <h3 className="mb-1 text-xl">
-                    <Link
-                      href="https://github.com/shane-jeon/loyalty-program"
-                      target="_blank"
-                      className="text-[#02FA9B] underline-offset-4 hover:text-white hover:underline">
-                      Glow Up
-                    </Link>
-                  </h3>
-                  <p className="mb-2 text-md">Fall 2023</p>
-                </div>
-                <p className="text-lg text-[#949494]">
-                  Web application built utilizing Python as primary programming
-                  language, SQLAlchemy as ORM tool, and PostgreSQL for database
-                  management on backend. Frontend interface built using HTML,
-                  CSS, and JavaScript. Designed to provide small business owners
-                  cost-effective solution for creating loyalty programs,
-                  eliminating need for costly fees from pre-existing services
-                </p>
-              </div>
-              <div className="hidden lg:block lg:w-2/5">
-                <LazyYoutube />
-              </div>
-              <div className="lg:hidden lg:w-3/5">
-                <Image
-                  alt="glowup"
-                  src="/glowupstatic.jpg"
-                  className="object-fit"
-                />
-              </div>
-            </div> */}
-          {/* </div> */}
         </div>
       </div>
     </div>
