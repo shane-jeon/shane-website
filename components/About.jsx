@@ -12,7 +12,7 @@ export default function About() {
     "/react1.svg",
     "/tailwind.svg",
     // "/next.svg",
-    "/whitenextjs.png",
+    "/whitenextjs.svg",
     "/python.svg",
     "/flask.svg",
     "/postgresql.svg",
