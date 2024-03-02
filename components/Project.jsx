@@ -30,6 +30,15 @@ export default function Project() {
       image: "/dc_universe.jpg",
       link: "https://github.com/shane-jeon/Into_the_DCUniverse",
     },
+    {
+      title: "Glow Up",
+      time: "Fall 2023",
+      summary:
+        "Web application built utilizing Python as primary programming language, SQLAlchemy as ORM tool, and PostgreSQL for database management on backend. Frontend interface built using HTML, CSS, and JavaScript. Designed to provide small business owners cost-effective solution for creating loyalty programs, eliminating need for costly fees from pre-existing services.",
+      image: "/glowupstatic.jpg",
+      video: true,
+      link: "https://github.com/shane-jeon/loyalty-program",
+    },
   ];
   return (
     <div
@@ -71,18 +80,33 @@ export default function Project() {
                 </p>
               </div>
               <div className="lg:w-2/5">
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  className="object-fit"
-                />
+                {project.video ? (
+                  <>
+                    <div className="hidden lg:block">
+                      <LazyYoutube />
+                    </div>
+                    <div className="lg:hidden">
+                      <Image
+                        src={project.image}
+                        alt={project.title}
+                        className="object-fit"
+                      />
+                    </div>
+                  </>
+                ) : (
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    className="object-fit"
+                  />
+                )}
               </div>
             </div>
           ))}
-          <div id="" className="flex flex-col">
-            <div
+          {/* <div id="" className="flex flex-col"> */}
+          {/* <div
               id="project1"
-              className="mb-10 flex flex-col-reverse gap-5 lg:flex-row lg:gap-36">
+              className="flex flex-col-reverse gap-5 mb-10 lg:flex-row lg:gap-36">
               <div className="lg:w-96">
                 <div className="justify-between text-white lg:flex">
                   <h3 className="mb-1 text-xl">
@@ -93,7 +117,7 @@ export default function Project() {
                       Glow Up
                     </Link>
                   </h3>
-                  <p className="text-md mb-2">Fall 2023</p>
+                  <p className="mb-2 text-md">Fall 2023</p>
                 </div>
                 <p className="text-lg text-[#949494]">
                   Web application built utilizing Python as primary programming
@@ -114,8 +138,8 @@ export default function Project() {
                   className="object-fit"
                 />
               </div>
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
         </div>
       </div>
     </div>
