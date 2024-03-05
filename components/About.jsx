@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+// import Image from "next/image";
 
 // import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css/core";
@@ -34,10 +34,10 @@ export default function About() {
   return (
     <div
       id="about"
-      className="flex flex-col-reverse from-blue-950 from-0% to-black to-60% font-spaceGrotesk bg-radient-ellipse-c lg:mt-10 lg:grid lg:h-screen lg:grid-cols-5 lg:grid-rows-5 lg:items-center lg:justify-around lg:gap-x-20">
+      className="flex flex-col-reverse from-blue-950 from-0% to-black to-60% font-spaceGrotesk bg-radient-ellipse-c lg:mt-10 lg:grid lg:min-h-screen lg:grid-cols-5 lg:grid-rows-4 lg:items-center lg:justify-around lg:gap-x-20">
       <div
         id="left"
-        className="flex flex-col text-[#F8F8FF] lg:col-start-2 lg:col-end-4 lg:row-start-2 lg:row-end-5 lg:justify-normal">
+        className="flex flex-col text-[#F8F8FF] lg:col-start-2 lg:col-end-4 lg:row-start-1 lg:row-end-5 lg:justify-normal">
         <div id="header" className="mb-4">
           <h1 className="mb-1 text-4xl lg:text-6xl">Shane Jeon</h1>
           <h2 className="text-3xl lg:pb-4 lg:text-4xl">Software Engineer</h2>
@@ -60,9 +60,11 @@ export default function About() {
           </h3>
           <div className="mb-10 flex flex-wrap justify-center rounded-l-md pl-4 lg:justify-start">
             {splideImages.map((splideImage, index) => (
-              <Image
+              <img
                 key={index}
                 src={splideImage}
+                width="10"
+                height="10"
                 alt={Array.from(splideImage).slice(1, -4).join("")}
                 className="w-12 object-contain pb-6 pr-4 lg:w-16 lg:pt-4"
               />
@@ -74,7 +76,7 @@ export default function About() {
         id="right"
         alt="profile-picture"
         className="mb-10 flex justify-center lg:col-start-4 lg:col-end-6 lg:row-start-2 lg:row-end-4 lg:justify-normal">
-        <Image src="/selfie.png" className="w-3/5 rounded-full" />
+        <img src="/selfie.png" className="w-3/5 rounded-full" />
       </div>
     </div>
   );

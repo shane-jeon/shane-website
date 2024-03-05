@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 
 export default function Other() {
@@ -43,7 +43,7 @@ export default function Other() {
             Community Engagement
           </h2>
           {communityEngagements.map((engagement, index) => (
-            <div key={index} className="mb-8 flex flex-col-reverse lg:flex-col">
+            <div key={index} className="flex flex-col-reverse mb-8 lg:flex-col">
               <div className="leading-looser">
                 <h4 className="tracking-looser text-xl text-white hover:text-[#02FA9B]">
                   <Link
@@ -53,11 +53,11 @@ export default function Other() {
                     {engagement.title}
                   </Link>
                 </h4>
-                <p className="text-md text-white">{engagement.date}</p>
+                <p className="text-white text-md">{engagement.date}</p>
                 <p className="text-md text-[#949494]">{engagement.role}</p>
               </div>
               <div>
-                <Image
+                <img
                   alt={engagement.title}
                   src={engagement.image}
                   className="mb-4 lg:mt-2 lg:w-96"
@@ -73,7 +73,7 @@ export default function Other() {
           {awards.map((award, index) => (
             <div key={index}>
               <div className="mb-4 lg:w-96">
-                <Image alt={award.title} src={award.image} />
+                <img alt={award.title} src={award.image} />
               </div>
               <div className="leading-looser">
                 <h4 className="text-xl text-white">
@@ -84,7 +84,7 @@ export default function Other() {
                     {award.title}
                   </Link>
                 </h4>
-                <p className="text-md text-white">{award.date}</p>
+                <p className="text-white text-md">{award.date}</p>
                 <p className="text-md text-[#949494]">{award.win}</p>
                 <p className="text-md text-[#949494]">
                   <Link

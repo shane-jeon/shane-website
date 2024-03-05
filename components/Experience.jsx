@@ -27,9 +27,9 @@ export default function Experience() {
       <h1 className="mb-6 text-4xl tracking-wider text-[#F8F8FF] lg:col-start-2 lg:row-start-1 lg:text-6xl">
         Experience
       </h1>
-      <div className="lg:col-start-2 lg:col-end-5 lg:row-start-1 lg:mt-24">
+      <div className=" text-[#949686] lg:col-start-2 lg:col-end-5 lg:row-start-1 lg:mt-24">
         {Object.keys(workExperience).map((key, index) => (
-          <div key={index} className="">
+          <div key={index} className="mb-6">
             <h2 className="mb-2 text-2xl font-normal leading-7 tracking-wide text-white">
               {key}
             </h2>
@@ -39,7 +39,7 @@ export default function Experience() {
             <p className="mb-4 text-lg font-thin text-white">
               {workExperience[key][1]}
             </p>
-            <p className="mb-6 pl-2 font-light text-[#949686] lg:mb-8 lg:text-xl">
+            <p className="mb-6 pl-2 font-light lg:mb-8 lg:text-xl">
               {workExperience[key][2].map((exp) => (
                 <ul className="list-disc" key={index}>
                   <li className="pb-4 text-lg leading-relaxed">{exp}</li>
