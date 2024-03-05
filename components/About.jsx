@@ -73,7 +73,7 @@ export default function About() {
         id="right"
         alt="profile-picture"
         className="mb-10 flex justify-center lg:col-start-4 lg:col-end-6 lg:row-start-2 lg:row-end-4 lg:justify-normal">
-        <Image src="/profile_img.png" className="w-2/5 rounded-full" />
+        <Image src="/selfie.png" className="w-3/5 rounded-full" />
       </div>
     </div>
   );
