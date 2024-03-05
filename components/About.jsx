@@ -14,7 +14,8 @@ export default function About() {
     // "/next.svg",
     "/whitenextjs.png",
     "/python.svg",
-    "/flask.svg",
+    // "/flask.svg",
+    "/flask.png",
     "/postgresql.svg",
   ];
 
