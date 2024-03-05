@@ -43,13 +43,16 @@ export default function About() {
         </div>
         <div id="body">
           <p className="pb-6 text-xl font-light leading-normal text-[#949686] lg:pb-8">
-            Transitioning into software engineering with a non-traditional
-            background, I bring a unique blend of determination, creativity, and
-            hands-on experience with modern web technologies. My journey is
-            marked by self-directed learning and practical problem-solving,
-            equipping me with a robust skill set ready to tackle real-world
-            challenges. Eager to apply my knowledge and drive, I am poised to
-            make a significant impact in the technology sector.
+            As a software engineer with hands-on experience in modern web
+            technologies, my background is characterized by a strong blend of
+            creativity, determination, and practical problem-solving skills. My
+            expertise spans frontend development and quality assurance, both of
+            which have been instrumental in honing my engineering capabilities.
+            This experience has not only enhanced my technical skills but also
+            deepened my understanding of team dynamics and workflow within the
+            technology sector. With a track record of applying my knowledge to
+            real-world challenges, I am excited to make a significant impact and
+            contribute effectively to projects and teams in the tech industry.
           </p>
           <h3 className="pb-2 text-2xl font-normal text-[#949494]">
             Tech Stack
